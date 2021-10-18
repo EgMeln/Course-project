@@ -47,7 +47,7 @@ func (war *Warrior) Defend() {
 }
 func (war *Warrior) FirstSkill(hero Hero) {
 	if war.Rage < 10 {
-		fmt.Println("You're not angry enough! Be angrier!!!Arrrrrr")
+		fmt.Println("You're not angry enough! Be angrier!!!Arrrrr")
 		return
 	}
 	fmt.Println("YOU want to be like your hero Dovakin, so you scream at the enemy. You're stunning him!")
